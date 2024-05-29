@@ -202,7 +202,7 @@ dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments
 
 [[package]]
 name = "pythonning"
-version = "1.6.2"
+version = "1.8.0"
 description = "Low-level python functions commonly used by any kind of developer."
 optional = false
 python-versions = ">=3.7"
@@ -211,13 +211,14 @@ develop = false
 
 [package.extras]
 dev = ["black"]
-test = ["pytest"]
+doc = ["furo (==2023.9.*)", "sphinx (==7.2.*)"]
+test = ["pytest (>=7)"]
 
 [package.source]
 type = "git"
 url = "https://github.com/knotsanimation/pythonning.git"
-reference = "pythonning-1.6.2"
-resolved_reference = "6a79f90db4b2bcede1881ced903e3910b5bfb38b"
+reference = "HEAD"
+resolved_reference = "d9d5610ba6aa07235f921c28d9855288a88ba23c"
 
 [[package]]
 name = "pyyaml"
@@ -333,4 +334,4 @@ test = ["pytest", "typing-extensions"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1"
-content-hash = "619795b1aab579232f54b94ff6f535392cde4d2d63757d71325da57603d949e1"
+content-hash = "62d811534276c59949011b0ce53031a47df1be90316b090435f0db08bc27afe4"

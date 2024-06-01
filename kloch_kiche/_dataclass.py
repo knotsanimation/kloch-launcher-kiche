@@ -19,7 +19,7 @@ LOGGER = logging.getLogger(__name__)
 @dataclasses.dataclass
 class KicheLauncher(BaseLauncher):
     """
-    A launcher that install python and download depencies at a temporary location.
+    A launcher that install python and download dependencies at a temporary location.
     """
 
     requirements: List[str] = dataclasses.field(default_factory=list)

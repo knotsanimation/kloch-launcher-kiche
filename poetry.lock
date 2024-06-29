@@ -98,7 +98,7 @@ files = [
 
 [[package]]
 name = "kloch"
-version = "0.7.0"
+version = "0.8.1"
 description = "Environment Manager CLI wrapping package managers calls as serialized config file"
 optional = false
 python-versions = ">=3.7"
@@ -108,11 +108,16 @@ develop = false
 [package.dependencies]
 PyYAML = "^6.0.1"
 
+[package.extras]
+dev = ["black (>=24.4.2,<25.0.0)"]
+doc = ["Sphinx (>=7.3.7,<8.0.0)", "furo (>=2024.4.27,<2025.0.0)", "myst_parser (>=3,<4)", "sphinx-autobuild (==2024.2.4)", "sphinx-copybutton (==0.5)", "sphinx-exec-code (==0.12)"]
+tests = ["pytest (==7.3.2)", "typing-extensions (<4.8)"]
+
 [package.source]
 type = "git"
 url = "https://github.com/knotsanimation/kloch.git"
-reference = "v0.7.0"
-resolved_reference = "1e6436341eedb814956ffa9714c498f17876ebab"
+reference = "v0.8.1"
+resolved_reference = "d2738a3e3adf12007e9e7c7b615750b4ba25f297"
 
 [[package]]
 name = "mypy-extensions"
@@ -334,4 +339,4 @@ test = ["pytest", "typing-extensions"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1"
-content-hash = "62d811534276c59949011b0ce53031a47df1be90316b090435f0db08bc27afe4"
+content-hash = "51fb5724ce8561c41b937c321b9c25cf127a83cbf567ff3dad7dba0ae84af960"

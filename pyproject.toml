@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kloch_kiche"
-version = "0.1.0"
+version = "0.1.1"
 description = "Launcher plugin for Kloch allowing to quickly execute python applications."
 authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
